@@ -147,7 +147,7 @@ This project is for learning and educational purposes.
 * Frontend from your code implementation
 * Backend API: **[https://supersimplebackend.dev](https://supersimplebackend.dev)**
 
-## 🧪 Testing (Jasmine Framework)
+## 🧪 Testing (Jasmine Framework) (full Testing was not done)
 
 This project includes unit tests written using the **Jasmine** testing framework.
 
@@ -185,3 +185,7 @@ describe('Feature Name', () => {
 ## 📄 License
 
 This template is provided for educational/demo purposes. Remove Amazon branding if deploying publicly.
+### NOTE 
+This project contains some minor issues or incomplete parts, especially in certain interactions and edge cases. These do not affect the main project functionality. They are kept intentionally as part of the learning process, to understand how the logic works step‑by‑step and improve over time.
+
+Feel free to experiment, debug, and refine — this project is meant for learning and practice, not a production deployment.
