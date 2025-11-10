@@ -9,14 +9,14 @@ export function renderCheckoutHeader(){
 const checkoutHeaderHTML = `
     <div class="header-content">
       <div class="checkout-header-left-section">
-        <a href="amazon.html">
+        <a href="index.html">
           <img class="amazon-logo" src="images/amazon-logo.png">
           <img class="amazon-mobile-logo" src="images/amazon-mobile-logo.png">
         </a>
       </div>
       <div class="checkout-header-middle-section">
         Checkout (<a class="return-to-home-link"
-         href="amazon.html">${cartQuantity} items</a>)
+         href="index.html">${cartQuantity} items</a>)
       </div>
       <div class="checkout-header-right-section">
         <img src="images/icons/checkout-lock-icon.png">
@@ -34,7 +34,7 @@ export function addProductrender(){
       document.querySelector('.js-order-summary').innerHTML = `
         <div class="empty-cart-simple">
           <p>Your cart is empty.</p>
-          <a href="amazon.html" class="view-products-btn">View products</a>
+          <a href="index.html" class="view-products-btn">View products</a>
         </div>
       `;
       renderCheckoutHeader();
